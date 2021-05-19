@@ -24,6 +24,8 @@ class QuizWidget extends StatelessWidget {
               isSelected: true,
               title: "AASJndajsdhakjdhakjdakjsdh asdkjahdkjasdh asdkjashdkjas"),
           AwnserWidget(
+              isRight: true,
+              isSelected: false,
               title: "AASJndajsdhakjdhakjdakjsdh asdkjahdkjasdh asdkjashdkjas"),
           AwnserWidget(
               title: "AASJndajsdhakjdhakjdakjsdh asdkjahdkjasdh asdkjashdkjas"),
