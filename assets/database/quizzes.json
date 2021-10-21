@@ -37,6 +37,24 @@
             "isRight": true
           }
         ]
+      },
+      {
+        "title": "O que o flutter faz em sua totalidade",
+        "awnsers": [
+          {
+            "title": "Kit de desenvolvimento de interface de usuário"
+          },
+          {
+            "title": "Possibilita a criação de aplicativos compilados nativamente"
+          },
+          {
+            "title": "Acho que é uma marca de café do Himalaia"
+          },
+          {
+            "title": "Possibilita a criação de desktops que são muito incríveis",
+            "isRight": true
+          }
+        ]
       }
     ],
     "questionAnswered": 1,
@@ -45,16 +63,16 @@
   },
 
   {
-    "title": "NLW - 5 Koltin",
+    "title": "NLW - 5 Kotlin",
     "questions": [
       {
-        "title": "Está curtindo o Koltin?",
+        "title": "Está curtindo o Kotlin?",
         "awnsers": [
           {
             "title": "Estou curtindo"
           },
           {
-            "title": "Amando Koltin"
+            "title": "Amando Kotlin"
           },
           {
             "title": "Muito top"
