@@ -4,10 +4,10 @@ import 'package:devquiz/shared/models/awnser_model.dart';
 import 'package:flutter/material.dart';
 
 class AwnserWidget extends StatelessWidget {
+  final bool disabled;
   final AwnserModel anwser;
   final bool isSelected;
   final ValueChanged<bool> onTap;
-  final bool disabled;
 
   const AwnserWidget(
       {Key? key,

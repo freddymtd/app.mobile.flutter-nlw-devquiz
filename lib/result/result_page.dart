@@ -1,6 +1,7 @@
 import 'package:devquiz/challange/widgets/next_button/next_button_widget.dart';
 import 'package:devquiz/core/core.dart';
 import 'package:flutter/material.dart';
+import 'package:share_plus/share_plus.dart';
 
 class ResultPage extends StatelessWidget {
   final String titulo;
@@ -55,7 +56,10 @@ class ResultPage extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(horizontal: 68),
                         child: NextButtonWidget.purple(
                           label: 'Compartilhar',
-                          onTap: () {},
+                          onTap: () {
+                            Share.share(
+                                'DevQuiz NLW 5 - Meu resultado no quizz $titulo obtive o seguinte resultado $qtdAnwserRight respostas corretas de no total de $length questões');
+                          },
                         ),
                       ),
                     ),
